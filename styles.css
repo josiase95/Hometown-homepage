@@ -1,0 +1,98 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: inter;;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    padding: 100px;
+    background-image: url("/images/Aarhus-hero.jpeg");
+    background-size: cover;
+    color: #F1FAEE
+}
+
+h1 {
+    background-color: #457B9D;
+    display: inline;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 32px;
+    
+}
+
+h2 {
+    background-color: #1D3557;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #F1FAEE;
+    padding: 20px 0 20px 0;
+    color: #1D3557;
+    
+}
+
+.activity-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 24px;
+    margin-right: 24px;
+    
+}
+
+.single-image img {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.guide {
+    background-color: #A8DADC;
+    display: flex;
+    width: 400px;
+    padding: 20px;
+    margin: 40px;
+    border-bottom: 4px solid #457B9D;
+    gap: 20px;
+    border-radius: 10px;
+    align-items: center;
+    color: #1D3557;
+    margin: 40px auto;
+  
+    
+}
+
+.guide img {
+    object-fit: cover;
+    height: 250px;
+    width: 180px;
+}
